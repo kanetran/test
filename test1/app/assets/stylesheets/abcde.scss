@@ -1,0 +1,17 @@
+// Place all the styles related to the abcde controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar > a {
+padding:2px 4px;
+background-color:transparent;
+border:solid 1px rgb(255, 255, 255);
+-moz-border-radius:5px;
+-webkit-border-radius:5px; 
+text-decoration:none;
+}
+
+.navbar a:hover {
+border-color:#cedfeb;
+background-color:rgb(246,248,249);
+font-weight: bold;
+}
