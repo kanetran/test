@@ -1,0 +1,4 @@
+<% @users.each do |e| %>
+	<%=e.name%> - <%=e.email%> - <%=e.password%>  
+	<%= link_to "delete",{action: :destroy, id: e.id},method: :delete%><br>
+<%end%>
